@@ -1,5 +1,6 @@
 # Run tests in check section
-%bcond_without check
+# (fail on ABF)
+%bcond_with check
 
 # https://github.com/jba/printsrc
 %global goipath		github.com/jba/printsrc
